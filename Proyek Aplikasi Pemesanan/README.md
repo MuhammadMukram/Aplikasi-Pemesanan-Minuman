@@ -1,18 +1,14 @@
-## Getting Started
+# PROYEK FINAL PBO SISTEM INFORMASI A
+Proyek dibuat sebagai proyek final untuk mata kuliah Pemrograman Berorientasi Objek (PBO) Sistem Informasi A. 
+Adapun kelompok terdiri dari dua orang, yaitu
+- Nur Hikmah                  : `H071211006`
+- Muhammad Mukram Mustamin    : `H071211012`
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## DESKRIPSI SINGKAT PROYEK
+- Proyek menerapkan bahasa pemrograman Java dengan menerapkan javaFX. Kemudian untuk layout proyek menggunakan SceneBuilder dengan tipe file ".fxml".
+- Proyek berupa aplikasi pemesanan minuman di sebuah kedai kopi yang berisi 2 jenis menu, Coffee dan non-Coffee. 
+- Konsumen harus memesan setidaknya satu minuman dengan mencentang kemudian mengisi jumlahnya, mengisi alamat, dan mengisi jarak dari kedai ke lokasi pemesanan.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Penutup
+Kami sadar masih terdapat kekurangan dari proyek ini, terlebih ini merupakan pertama kalinya kami membuat proyek.
+Ucapan terima kasih diucapkan kepada dosen pengampu, ibu `Rozalina Amran` beserta kedua kakak asisten kak `Maximilian Christoporus Nuel Jaya` dan kak `Cecilia Tania Emanuella` atas bimbingannya selama mata kuliah PBO ini berlangsung.
