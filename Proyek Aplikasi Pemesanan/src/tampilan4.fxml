@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Pengantaran" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="216.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller4">
+   <children>
+      <Label fx:id="TxtDriverDitemukan" layoutX="14.0" layoutY="63.0" prefHeight="27.0" prefWidth="372.0" text="Driver ditemukan! ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="OK1" layoutX="409.0" layoutY="177.0" mnemonicParsing="false" onAction="#OKButton1" style="-fx-background-color: #4fbce8;" text="OK" textFill="WHITE" />
+      <Label fx:id="txtPengantaran" layoutX="14.0" layoutY="95.0" prefHeight="27.0" prefWidth="434.0" text="Pesanan akan sampai dalam">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="waktuSampai" layoutX="265.0" layoutY="95.0" prefHeight="27.0" prefWidth="107.0" text="16,5 menit">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

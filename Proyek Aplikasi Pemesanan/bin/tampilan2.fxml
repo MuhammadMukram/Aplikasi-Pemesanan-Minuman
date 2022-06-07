@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="KonfirMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="169.0" prefWidth="328.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller2">
+   <children>
+      <Label fx:id="MenuYangDipesan" layoutX="21.0" layoutY="27.0" text="Total Harga:">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button fx:id="Konfirmasi" layoutX="225.0" layoutY="108.0" mnemonicParsing="false" onAction="#KonfirmasiButton" style="-fx-background-color: #4fbce8;" text="Konfirmasi" textFill="WHITE" />
+      <Button fx:id="BatalkanPesanan" layoutX="96.0" layoutY="108.0" mnemonicParsing="false" onAction="#BatalkanPesananButton" style="-fx-background-color: #f75959;" text="Batalkan Pesanan" textFill="WHITE" />
+      <Label layoutX="81.0" layoutY="47.0" />
+      <Label fx:id="Rp" layoutX="96.0" layoutY="64.0" text="Rp" />
+      <Label fx:id="totalHarga" layoutX="123.0" layoutY="64.0" text="Harga" />
+   </children>
+</AnchorPane>
